@@ -4,7 +4,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class ControladorTaco : MonoBehaviour
 {
     private XRGrabInteractable grabInteractable;
-    private Transform bolaTransform;
+    [SerializeField] private Transform bolaTransform;
     private Rigidbody bolaRigidbody;
 
     public float forcaDeImpulso = 500f;
